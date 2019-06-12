@@ -2,7 +2,7 @@
 
 module.exports = {
   publicPath: './',
-  outputDir: process.env.NODE_ENV === 'development' ? 'devdist' : 'dist',
+  outputDir: process.env.NODE_ENV === 'development' ? 'devdist' : 'dists',
   lintOnSave: false,
   assetsDir: 'static',
   productionSourceMap: false,
